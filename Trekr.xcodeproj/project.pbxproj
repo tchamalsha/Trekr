@@ -11,6 +11,8 @@
 		4E20F02C2898D065002093C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E20F02B2898D065002093C8 /* ContentView.swift */; };
 		4E20F02E2898D067002093C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E20F02D2898D067002093C8 /* Assets.xcassets */; };
 		4E20F0312898D067002093C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E20F0302898D067002093C8 /* Preview Assets.xcassets */; };
+		4E20F0392898D418002093C8 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E20F0372898D418002093C8 /* tips.json */; };
+		4E20F03A2898D418002093C8 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 4E20F0382898D418002093C8 /* locations.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		4E20F02B2898D065002093C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4E20F02D2898D067002093C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E20F0302898D067002093C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4E20F0372898D418002093C8 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		4E20F0382898D418002093C8 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 				4E20F0292898D065002093C8 /* TrekrApp.swift */,
 				4E20F02B2898D065002093C8 /* ContentView.swift */,
 				4E20F02D2898D067002093C8 /* Assets.xcassets */,
+				4E20F0382898D418002093C8 /* locations.json */,
+				4E20F0372898D418002093C8 /* tips.json */,
 				4E20F02F2898D067002093C8 /* Preview Content */,
 			);
 			path = Trekr;
@@ -127,6 +133,8 @@
 			files = (
 				4E20F0312898D067002093C8 /* Preview Assets.xcassets in Resources */,
 				4E20F02E2898D067002093C8 /* Assets.xcassets in Resources */,
+				4E20F03A2898D418002093C8 /* locations.json in Resources */,
+				4E20F0392898D418002093C8 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
