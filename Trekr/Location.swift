@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Location:Decodable{
+struct Location:Decodable,Identifiable{
     
     let id: Int
     let name: String
@@ -15,8 +15,10 @@ struct Location:Decodable{
     let description: String
     let more: String
     let heroPicture: String
+    let latitude:Double
+    let longitude:Double
     
     static let example = Location (id:1,name:"The highlands",country:"United states",description:"Nice place to visit",
-                           more:"more text here.",heroPicture: "highlands"
+                                   more:"more text here.",heroPicture: "highlands",latitude: 35.6532,longitude: -83.5070
     )
 }
