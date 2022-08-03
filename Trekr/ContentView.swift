@@ -36,12 +36,13 @@ struct ContentView: View {
                 .padding()
             
         }
+        .navigationTitle("Discover")
         
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(location: Location.example)
+        ContentView(location: Locations().primary)
     }
 }
